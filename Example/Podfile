@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TFLibTest_Example' do
+  pod 'TFLibTest', :path => '../'
+
+  target 'TFLibTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
