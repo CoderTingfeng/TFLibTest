@@ -1,0 +1,6 @@
+framework module TFLibTest {
+  umbrella header "TFLibTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
